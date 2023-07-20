@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Robot Arm Controller</title>
+    <link rel="stylesheet" href="hassan.css">
+  </head>
+  <body>
+    <header>
+      <h1>Robot Arm Controller</h1>
+    </header>
+    <main>
+      <div class="robot-container">
+        <div class="robot-arm"></div>
+        <div class="robot-shadow"></div>
+      </div>
+      <div class="buttons-container">
+        <div class="buttons-group">
+          <button class="start-button" id="start"><span class="start-icon"></span></button>
+          <button class="stop-button" id="stop"><span class="stop-icon"></span></button>
+        </div>
+        <div class="buttons-group">
+          <button class="direction-button up-button" id="up"><span class="triangle-up"></span></button>
+        </div>
+        <div class="buttons-group">
+          <button class="direction-button left-button" id="left"><span class="triangle-left"></span></button>
+          <button class="direction-button right-button" id="right"><span class="triangle-right"></span></button>
+        </div>
+        <div class="buttons-group">
+          <button class="direction-button down-button" id="down"><span class="triangle-down"></span></button>
+        </div>
+      </div>
+    </main>
+    <audio id="audio" src="https://www.soundjay.com/mechanical/robot-arm-1.mp3"></audio>
+    <script src="/hassan.js"></script>
+  </body>
+</html>
